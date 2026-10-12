@@ -1,0 +1,3 @@
+# Shader files keep Windows line endings so they open cleanly in Notepad
+PxShader/*.txt -text
+*.png binary
