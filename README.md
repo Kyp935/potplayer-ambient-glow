@@ -19,8 +19,8 @@ Tick only one at a time. PotPlayer runs every ticked post-resize shader in seque
 
 ## Install
 
-1. Download the files in [`PxShader`](PxShader): use **Code → Download ZIP**, or open each file and click the download button.
-2. Copy them into `C:\Program Files\DAUM\PotPlayer\PxShader`. Windows asks for admin permission.
+1. Download **Ambient-Glow-for-PotPlayer.zip** from the [latest release](https://github.com/Kyp935/potplayer-ambient-glow/releases/latest) and unzip it.
+2. Copy the four `.txt` files into `C:\Program Files\DAUM\PotPlayer\PxShader`. Windows asks for admin permission.
 3. In PotPlayer, right-click the video → **Video → Pixel Shaders → Reload Pixel Shader list**.
 4. Right-click → **Video → Pixel Shaders → Post-Resize Pixel Shaders** → tick **Ambient Glow Auto**.
 5. In the same Pixel Shaders menu, make sure **Use Post-Resize Pixel Shaders** is ticked and **Apply only to video image (ignores spaces)** is *not* ticked. The shader needs the black bars.
