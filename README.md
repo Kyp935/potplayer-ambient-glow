@@ -54,6 +54,7 @@ Each file has a settings block at the top. To change a setting:
 
 - **RTX Video Super Resolution** keeps working with the shader on. PotPlayer reports "GPU Super Resolution" as the resizer. As usual, Super Resolution only runs when the video is being upscaled, so not for 4K sources.
 - **HDR passthrough** ("Use H/W HDR output mode") works with the shader on.
+- **madVR and MPC Video Renderer** (for example in MPC-HC) aren't supported. They only pass the picture itself to shaders, never the black bars beside it, so the glow has nowhere to draw. Use PotPlayer's built-in Direct3D 11 renderer.
 - Films that already fill the screen (2.39:1 on 21:9), credits on black, and the picture itself are left untouched. Only side bars that are completely black get lit.
 - Auto mode: in very dark scenes, where the picture's own edge is black, the glow can occasionally extend into that black area. The 16-9 file never does this.
 
